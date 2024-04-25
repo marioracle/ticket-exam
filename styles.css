@@ -1,0 +1,42 @@
+/* Resetting default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ecd000;
+    color: black;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.element {
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;    
+    height: 100px;
+    width: 300px;
+}
+
+.element:hover{
+    background-color: red;
+    cursor: pointer;
+    border: 1px solid black;
+}
